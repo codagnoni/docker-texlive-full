@@ -9,7 +9,7 @@
 # software components inside the image are under the respective
 # licenses chosen by their respective copyright holders.
 #
-FROM ubuntu:20.04
+FROM ubuntu:19.04
 MAINTAINER Thomas Weise <tweise@hfuu.edu.cn>
 
 ENV LANG=C.UTF-8
@@ -149,3 +149,4 @@ RUN apt-get update &&\
     mkdir -p /usr/share/texlive/texmf-dist/source
 
 ADD scripts /bin/
+
